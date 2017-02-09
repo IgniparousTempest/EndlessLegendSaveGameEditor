@@ -1,0 +1,18 @@
+﻿<Window x:Class="EndlessLegenedSaveEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EndlessLegenedSaveEditor"
+        mc:Ignorable="d"
+        Title="Endless Legend Save File Editor by Courtney Pitcher" Height="406.863" Width="658.784" Icon="Images/Icon.png">
+    <Grid>
+        <Button x:Name="buttonSelectSaveFile" Content="Load Save" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonSelectSaveFile_Click" Height="37"/>
+        <Button x:Name="buttonSelectSaveEdits" Content="Save edits" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonSelectSaveEdits_Click" Height="37" IsEnabled="False"/>
+        <Button x:Name="buttonWebsite" Content="Checkout My Website" Margin="0,10,10,0" VerticalAlignment="Top" Click="buttonWebsite_Click" Height="37" HorizontalAlignment="Right" Width="136"/>
+
+        <ScrollViewer Margin="0,52,0,0" VerticalScrollBarVisibility="Auto">
+            <WrapPanel x:Name="empiresPanel"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

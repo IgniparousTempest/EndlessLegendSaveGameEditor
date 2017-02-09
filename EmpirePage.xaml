@@ -1,0 +1,35 @@
+﻿<Page x:Class="EndlessLegenedSaveEditor.EmpirePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EndlessLegenedSaveEditor"
+      mc:Ignorable="d" 
+      d:DesignHeight="150.667" d:DesignWidth="310.667"
+      Title="EmpirePage">
+
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1"/>
+
+        <TextBox x:Name="textBoxGlassteel" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="imageGlassteel" HorizontalAlignment="Left" Height="16" Margin="156,16,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Glassteel.png" ToolTip="Glassteel"/>
+        <TextBox x:Name="textBoxTitanium" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,34,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="16" Margin="156,37,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Titanium.png" ToolTip="Titanium"/>
+        <TextBox x:Name="textBoxAdamantium" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,55,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="16" Margin="156,58,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Adamantian.png" ToolTip="Adamantium"/>
+        <TextBox x:Name="textBoxPalladiun" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,76,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="image_Copy2" HorizontalAlignment="Left" Height="16" Margin="156,79,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Palladian.png" ToolTip="Palladiun"/>
+        <TextBox x:Name="textBoxHyperium" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,97,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="image_Copy3" HorizontalAlignment="Left" Height="16" Margin="156,100,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Hyperium.png" ToolTip="Hyperium"/>
+        <TextBox x:Name="textBoxMithrite" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="177,118,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo999"/>
+        <Image x:Name="imageMithrite" HorizontalAlignment="Left" Height="16" Margin="156,121,0,0" VerticalAlignment="Top" Width="16" Source="Images/Strategic_Mithrite.png" ToolTip="Mithrite"/>
+        <TextBox x:Name="textBoxDust" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="31,95,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo9999999"/>
+        <Image x:Name="imageDust" HorizontalAlignment="Left" Height="16" Margin="10,98,0,0" VerticalAlignment="Top" Width="16" Source="Images/Dust.png" ToolTip="Dust"/>
+        <TextBox x:Name="textBoxInfluence" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="31,118,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" ToolTip="" TextChanged="textBox_TextChanged_ValidateFloatCappedTo9999999"/>
+        <Image x:Name="imageInfluence" HorizontalAlignment="Left" Height="16" Margin="10,121,0,0" VerticalAlignment="Top" Width="16" Source="Images/Influence.png" ToolTip="Influence"/>
+        <TextBox x:Name="textBoxScience" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="31,73,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged_ValidateFloatCappedTo99999"/>
+        <Image x:Name="imageScience" HorizontalAlignment="Left" Height="16" Margin="10,76,0,0" VerticalAlignment="Top" Width="16" Source="Images/Science.png" ToolTip="Science"/>
+        <Image x:Name="imageFaction" Source="Images/Faction_wild_walkers.png" Margin="16,34,227,83"/>
+        <Label x:Name="labelFactionName" Content="Faction Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
